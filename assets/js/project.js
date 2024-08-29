@@ -9,7 +9,7 @@ const projects = [
     title: "Darasa Impact",
     cardImage: "assets/images/darasa.png",
     description: "Assessment System.",
-    tagimg: "",
+    
     Previewlink: "https://darasa.app/",
     
   },
@@ -17,7 +17,7 @@ const projects = [
     title: "Wakala Real Estate",
     cardImage: "assets/images/wakala.png",
     description: "Real Estate.",
-    tagimg: "",
+    
     Previewlink: "https://wakala.africa/",
     Githublink: "",
   },
@@ -25,7 +25,7 @@ const projects = [
     title: "ElaCreatives",
     cardImage: "assets/images/ela.png",
     description: "Branding & Design",
-    tagimg: "",
+    
     Previewlink: "https://elacreatives.com/",
     Githublink: "",
   },
@@ -33,7 +33,7 @@ const projects = [
     title: "Anyduka",
     cardImage: "assets/images/anyduka.png",
     description: "E-Commerce",
-    tagimg: "",
+    
     Previewlink: "https://anyduka.com/",
     Githublink: "",
   },
@@ -41,7 +41,7 @@ const projects = [
     title: "Book bunk",
     cardImage: "assets/images/book.png",
     description: "library"
-    tagimg: "",
+    
     Previewlink: "https://www.bookbunk.org/",
     Githublink: "",
   },
@@ -51,7 +51,7 @@ const projects = [
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
-  projects.forEach(({ title, cardImage, Previewlink, Githublink }) => {
+  projects.forEach(({ title, cardImage, Previewlink, }) => {
     output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
